@@ -58,8 +58,8 @@ def main():
         # Assuming class 0 is "other cats" and class 1 is "shami"
         if predicted.item() == 1:
             print(f"recognized as shami: '{img_name}' with confidence: {probs[0][predicted.item()]}")
-        #else:
-            #print(f"recognized as other cat: '{img_name}' with confidence: {probs[0][predicted.item()]}")
+        # else:
+            # print(f"recognized as other cat: '{img_name}' with confidence: {probs[0][predicted.item()]}")
 
 
 

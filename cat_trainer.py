@@ -126,8 +126,8 @@ def main():
     evaluate_model(model, val_loader, criterion)
 
     # Save the trained model
-    torch.save(model.state_dict(), 'efficientnet_cat_classifier.pth')
-    print("Model saved to efficientnet_cat_classifier.pth")
+    torch.save(model.state_dict(), 'efficientnet_cat_classifier_v2.pth')
+    print("Model saved to efficientnet_cat_classifier_v2.pth")
 
 # Run the main function
 if __name__ == "__main__":
